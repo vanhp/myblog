@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to myBlog about Machine learning!"
 date:   2020-08-30 20:33:25 -0700
 categories: jekyll update
 ---
