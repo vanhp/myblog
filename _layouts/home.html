@@ -4,11 +4,11 @@ layout: default
 
 <div class="home">
   {%- if page.image -%}
-  <img src="{{- page.image | relative_url -}}" alt="" class="featureHome-image-post" />
-{%- else -%}
- {%- assign postImage = "/images/lion2.jpg" -%}
+    <img src="{{- page.image | relative_url -}}" alt="" class="featureHome-image-post" />
+  {%- else -%}
+    {%- assign postImage = "/images/lion2.jpg" -%}
     <img src="{{- postImage | relative_url -}}" alt="" class="featureHome-image-post" />
-{%- endif -%}
+  {%- endif -%}
 
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -21,6 +21,15 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
+        
+        {%- if post.image -%}
+          <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image" />
+        {%- else -%}
+          {%- assign postImage = "/images/lion2.jpg" -%}
+           <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image" />
+        {%- endif -%}
+      
+
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
