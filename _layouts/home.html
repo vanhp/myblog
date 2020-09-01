@@ -3,6 +3,13 @@ layout: default
 ---
 
 <div class="home">
+  {%- if page.image -%}
+  <img src="{{- page.image | relative_url -}}" alt="" class="featureHome-image-post" />
+{%- else -%}
+ {%- assign postImage = "/images/lion2.jpg" -%}
+    <img src="{{- postImage | relative_url -}}" alt="" class="featureHome-image-post" />
+{%- endif -%}
+
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}

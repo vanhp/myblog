@@ -4,7 +4,7 @@
 
 layout: home
 title: Main 
+image: /images/lion2.jpg
 ---
-
 
 ## Welcome to my Blog about technical and business

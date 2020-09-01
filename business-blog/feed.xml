@@ -2,8 +2,6 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<!-- <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator> -->
-
 
 <link href="{{- site.url -}}{{- site.baseurl -}}/business-blog/feed.xml" rel="self" type="application/atom+xml"/>
 <link href="{{- site.url -}}{{- site.baseurl -}}/business-blog/" rel="alternate" type="text/html"/>
@@ -31,31 +29,4 @@
         </entry>
     {%- endif -%}
 {%- endfor -%}
-
-<!-- <entry>
-<title type="html">Business Relate blog</title>
-<link href="http://localhost:4000/myBlog/business-blog/2020/08/31/buzpost.html" rel="alternate" type="text/html" title="Business Relate blog"/>
-<published>2020-08-31T10:40:34-07:00</published>
-<updated>2020-08-31T10:40:34-07:00</updated>
-<id>http://localhost:4000/myBlog/business-blog/2020/08/31/buzpost</id>
-<content type="html" xml:base="http://localhost:4000/myBlog/business-blog/2020/08/31/buzpost.html"><h2 id="this-is-a-post-for-business-relate-only-area">This is a post for business relate only area</h2> <p>There will be more in the future</p></content>
-<author>
-<name>Vanh Phomsavanh</name>
-</author>
-<category term="Business-blog"/>
-<summary type="html">This is a post for business relate only area</summary>
-</entry>
-<entry>
-<title type="html">Technical Relate Blog</title>
-<link href="http://localhost:4000/myBlog/technical-blog/technical/2020/08/30/technical-post.html" rel="alternate" type="text/html" title="Technical Relate Blog"/>
-<published>2020-08-30T20:40:50-07:00</published>
-<updated>2020-08-30T20:40:50-07:00</updated>
-<id>http://localhost:4000/myBlog/technical-blog/technical/2020/08/30/technical-post</id>
-<content type="html" xml:base="http://localhost:4000/myBlog/technical-blog/technical/2020/08/30/technical-post.html"><h1 id="the-machine-learning-blog">The Machine Learning Blog</h1></content>
-<author>
-<name>Vanh Phomsavanh</name>
-</author>
-<category term="Technical"/>
-<summary type="html">The Machine Learning Blog</summary>
-</entry> -->
 </feed>
