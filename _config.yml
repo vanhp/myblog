@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My Machine Learning Journey
+title: Machine Learning Journey
 email: vanhphom@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -35,7 +35,7 @@ facebook_username: vanh phom
 linkedin_username: vanh phom
 
 # Ideal logo image should be 50px for title 
-title-logo: /images/title-lionlogo.jpg
+title-logo: /images/birdlogo3.jpg
 
 # add copyright 
 copyright: " VSP LLC"
